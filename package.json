@@ -9,7 +9,8 @@
   "license": "SEE LICENSE IN <your-license-filename>",
   "scripts": {
     "dev-android": "ns run android",
-    "clean": "ns clean"
+    "clean": "ns clean",
+    "setup": "npm install"
   },
   "files": [
     "app",
