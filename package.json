@@ -7,6 +7,10 @@
   "description": "NativeScript Application",
   "author": "NativeScript Team <oss@nativescript.org>",
   "license": "SEE LICENSE IN <your-license-filename>",
+  "scripts": {
+    "dev-android": "ns run android",
+    "clean": "ns clean"
+  },
   "files": [
     "app",
     "App_Resources",
@@ -35,10 +39,15 @@
     "url": "https://github.com/NativeScript/NativeScript/issues"
   },
   "dependencies": {
+    "@nativescript/canvas": "^0.9.11",
+    "@nativescript/canvas-phaser": "^1.0.0-alpha6",
     "@nativescript/core": "~8.0.0",
-    "@nativescript/theme": "~3.0.1"
+    "@nativescript/theme": "~3.0.1",
+    "phaser": "^3.55.2",
+    "xmldom": "^0.6.0"
   },
   "devDependencies": {
+    "@nativescript/android": "8.0.0",
     "@nativescript/webpack": "beta"
   },
   "private": "true",
